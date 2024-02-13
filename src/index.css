@@ -1,0 +1,1813 @@
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+    @font-face {
+        font-family: lorimerTwo;
+        src: url(./Lorimer_No2Trial_Light.otf);
+    }
+    
+    @font-face {
+        font-family: SourceSansPro;
+        src: url(./SourceSansPro-Regular.ttf);
+    }
+    @font-face {
+        font-family: SourceSansProBold;
+        src: url(./SourceSansPro-Bold.ttf);
+    }
+    @font-face {
+        font-family: SourceSansProLight;
+        src: url(./SourceSansPro-Light.ttf);
+    }
+    @font-face {
+        font-family: SourceSansProSemiBold;
+        src: url(./SourceSansPro-SemiBold.ttf);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: SourceSansPro;
+    }
+    
+    .HeaderLinkBarTop a:hover {
+        color: white;
+    }
+    
+    .HeaderLinkBarTop {
+        background-color: #1a2944;
+    }
+    img{max-width: 100%;}
+
+
+    .herosSectionHomePage .filter{
+        background: linear-gradient(75deg, rgba(26, 41, 68, 0.84) 0%, rgba(26, 41, 68, 0.84) 25%, rgba(33, 33, 33, 0.06) 75%, rgba(33, 33, 33, 0.06) 100%) !important;
+        padding: 80px 0;
+    }
+    .HeaderLinkBarTop a {
+        display: flex;
+        font-family: SourceSansProLight;
+        font-weight: 600;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-left: 30px;
+        padding: 13px 0;
+    }
+    
+    .HeaderLinkBarTop a svg {
+        color: #86be41;
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    header .headerLoginRegistrationBtn {
+        background-color: #84bf41;
+        border: 2px solid #84bf41;
+font-family: 'SourceSansProSemiBold';
+        color: #1a2944;
+        transition: all 0.2s ease-in-out;
+        display: block;
+        width: max-content;
+        text-decoration: none;
+        padding: 10px 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    }
+    
+    header .headerLoginRegistrationBtn:hover {
+        background-color: white;
+        color: #1a2944;
+    }
+    
+    header img {
+        width: 235px;
+        height: 60px;
+    }
+    
+    header li {
+        list-style: none;
+        padding: 10px;
+        background-color: white;
+        position: relative;
+    }
+    
+    header li:hover {
+        list-style: none;
+        padding: 10px;
+        background-color: #148543;
+    }
+    
+    header li:hover a span{
+        color: white;
+    }
+    
+    header li:hover a span svg {
+        color: white;
+    }
+    
+    header li a,header li a span{
+        text-decoration: none;
+        color: black;
+
+        font-size: 22px;
+        font-weight: 600;
+        font-family: lorimerTwo;
+        font-stretch: condensed;
+    }
+   
+    
+    .HeaderLinksDropdown {
+        min-width: max-content;
+        display: none;
+        position: absolute;
+        left: 0;
+        background: #138645;
+        padding: 25px 0;
+        top: 53px;
+        z-index: 999;
+    }
+    .HeaderLinksDropdown a{
+       font-family: 'lorimerTwo';
+       text-decoration: none;
+    }
+    
+    .MembersLinkDropdownBox a,
+    .RetireesLinkDropdownBox a,
+    .EmployersLinkDropdownBox a,
+    .InvestmentLinkDropdownBox a,
+    .FormsPublicationsLinkDropdownBox a,
+    .NewsLinkDropdownBox a,
+    .AboutLinkDropdownBox a {
+        font-stretch: condensed;
+        display: block;
+        text-decoration: none;
+        font-size: 21px;
+        background-color: #148543;
+        padding: 0px;
+        color: white;
+        padding: 8px 20px;
+    }
+    
+    .MembersLinkDropdownBox a:hover,
+    .RetireesLinkDropdownBox a:hover,
+    .EmployersLinkDropdownBox a:hover,
+    .InvestmentLinkDropdownBox a:hover,
+    .FormsPublicationsLinkDropdownBox a:hover,
+    .NewsLinkDropdownBox a:hover,
+    .AboutLinkDropdownBox a:hover {
+        color: white;
+    }
+    
+    section.herosSectionHomePage {
+        min-height: 350px;
+        background-image: url(./Assets/Image/copera-hero-bg.avif);
+    }
+    
+    section.herosSectionHomePage {
+        min-height: 350px;
+        background-image: url(./Assets/Image/copera-hero-bg.avif);
+        background-repeat: no-repeat;
+      
+        background-position: bottom;
+        background-size: cover;
+    }
+    
+    section.herosSectionHomePage h1 {
+        text-shadow: 0 3px 6px rgb(0 0 0 / 70%);
+        color: white;
+        font-size: 61px;
+        font-weight: 700;
+    }
+    
+    section.herosSectionHomePage p,section.herosSectionHomePage p div {
+        font-size: 17px;
+        color: white;
+        font-family: 'SourceSansProSemiBold';
+    }
+    
+    section.herosSectionHomePage button.HerosSectionDropdownButton {
+        background-color: white;
+        color: #000000;
+        border: 0;
+        padding: 13px 0 12px 20px;
+        text-align: start;
+        font-size: 16px;
+        font-weight: 700;
+        position: relative;
+        width: 100%;
+    }
+    
+    section.herosSectionHomePage .HerosSectionDropdownButtonIcon {
+        height: 100%;
+        width: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        background-color: #84bf41;
+        justify-content: center;
+    }
+    
+    section.herosSectionHomePage .HerosSectionDropdownButtonIcon .lines {
+        width: 100%;
+        position: relative;
+    }
+    
+    section.herosSectionHomePage .HerosSectionDropdownButtonIcon .lines.active .lineOne {
+        height: 3px;
+        width: 45%;
+        background-color: black;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 50%) rotate(45deg);
+    }
+    
+    section.herosSectionHomePage .HerosSectionDropdownButtonIcon .lines.active .lineTwo {
+        height: 3px;
+        width: 45%;
+        background-color: black;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 50%) rotate(135deg);
+    }
+    
+    section.herosSectionHomePage .HerosSectionDropdownButtonIcon .lines .lineOne {
+        height: 3px;
+        width: 30%;
+        background-color: black;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 44%;
+        transform: rotate(45deg);
+    }
+    
+    section.herosSectionHomePage .HerosSectionDropdownButtonIcon .lines .lineTwo {
+        height: 3px;
+        width: 30%;
+        background-color: black;
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        left: 44%;
+        transform: rotate(135deg);
+    }
+    
+    .HerosSectionDropdownMain {
+        position: relative;
+        width: 450px;
+    }
+    
+    .HerosSectionDropdown {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    }
+    
+    .HerosSectionDropdown a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 7px 0 7px 20px;
+    }
+    
+    .HerosSectionDropdown a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .HerosSectionDropdown.active {
+        display: none;
+    }
+    
+    footer {
+        background-color: #333;
+        padding: 70px 0 100px 0;
+    }
+    
+    footer a.FooterLogo img {
+        width: 235px;
+        height: 60px;
+    }
+    
+    footer .FooterDescriptionOne p:nth-of-type(1) {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+    
+    footer .FooterDescriptionOne p:nth-of-type(2) {
+        color: white;
+        font-size: 18px;
+        margin: 35px 0;
+    }
+    
+    footer .FooterDescriptionOne p:nth-of-type(3) {
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0 0 35px 0;
+    }
+    
+    footer .FooterDescriptionOne a {
+        text-decoration: none;
+        color: white;
+        font-size: 13.5px;
+    }
+    
+    footer .FooterDescriptionTwo a {
+        text-decoration: none;
+        font-weight: 700;
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding-bottom: 23px;
+    }
+    
+    footer .FooterDescriptionThree p {
+        font-size: 18px;
+        color: white;
+        margin: 0;
+    }
+    
+    footer .FooterDescriptionThree a {
+        font-size: 18px;
+        color: white;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 32px;
+        text-decoration: none;
+    }
+    
+    footer .FooterDescriptionThree svg {
+        font-size: 21px;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    footer .FooterDescriptionThree .FooterSocialLinks a {
+        display: block;
+        margin-bottom: 0;
+        width: 45px;
+        height: 45px;
+    }
+    
+    footer .FooterDescriptionThree .FooterSocialLinks a img {
+        width: 100%;
+    }
+    
+    section.HomePageGetStartedSection .GetStartedHomePageSlideOne,
+    section.HomePageGetStartedSection .GetStartedHomePageSlideTwo,
+    section.HomePageGetStartedSection .GetStartedHomePageSlideThree {
+        display: flex;
+        position: relative;
+        justify-content: end;
+        margin: 0px 175px;
+        flex-direction: row-reverse;
+    }
+    
+    section.HomePageGetStartedSection .SlideContent {
+        width: 500px;
+        min-height: 380px;
+        background-color: #f0f0f0;
+        border-left: 5px solid #95297b;
+        padding: 40px 50px 0 50px;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    
+    section.HomePageGetStartedSection .SlideContent h2 a {
+        color: #1a2944;
+        font-size: 40px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    section.HomePageGetStartedSection .SlideContent p {
+        color: #000000;
+        font-size: 16px;
+        margin: 14px 0 35px 0;
+    }
+    
+    section.HomePageGetStartedSection .SlideContent a.SliderLearnMoreButton {
+        background-color: #84bf41;
+        border: 2px solid transparent;
+        border-radius: 0;
+        padding: 10px 30px;
+font-family: 'SourceSansProSemiBold';        
+font-size: 18px;
+        text-shadow: none;
+        color: #1a2944;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+        text-decoration: none;
+    }
+    
+    section.HomePageGetStartedSection .SlideImage {
+        width: 710px;
+        height: 460px;
+        background-size: 100% 100%;
+    }
+    
+    section.HomePageGetStartedSection .GetStartedHomePageSlideOne .SlideImage {
+        background-image: url(./Assets/Image/HomePageSliderOneImage.webp);
+    }
+    
+    section.HomePageGetStartedSection .GetStartedHomePageSlideTwo .SlideImage {
+        background-image: url(./Assets/Image/HomePageSliderTwoImage.webp);
+    }
+    
+    section.HomePageGetStartedSection .GetStartedHomePageSlideThree .SlideImage {
+        background-image: url(./Assets/Image/HomePageSliderThreeImage.webp);
+    }
+    
+    section.HomePageGetStartedSection .swiper-pagination {
+        text-align: end;
+        padding-right: 230px;
+    }
+    
+    section.HomePageGetStartedSection .swiper-pagination .swiper-pagination-bullet {
+        width: 17px;
+        height: 17px;
+        border: 2px solid white;
+        background-color: transparent;
+    }
+    
+    section.HomePageGetStartedSection .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 17px;
+        height: 17px;
+        border: 1px solid white;
+        background-color: white;
+    }
+    
+    .HomePageFrequentlyAskedQuestionSection h2 {
+        font-size: 50px;
+        font-family: 'SourceSansProBold';
+    }
+    
+    .HomePageFrequentlyAskedQuestionSection a:hover {
+        color: black;
+    }
+    
+    .HomePageFrequentlyAskedQuestionSection a {
+        font-size: 22px;
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+        font-stretch: condensed;
+        padding: 10px 0;
+        letter-spacing: 1px;
+    }
+    
+    .HomePageFrequentlyAskedQuestionSection svg {
+        color: #84bf41;
+        font-size: 35px;
+        margin-left: 6px;
+        transition: 0.2s ease-in-out;
+    }
+    
+    .HomePageFrequentlyAskedQuestionSection a:hover svg {
+        margin-left: 15px;
+    }
+    
+    .CustomBorderLeft {
+        border-left: 1px solid #808285;
+    }
+    
+    .HomePageGetStartedSection h2.title,
+    .HomePageGetStayInformedSection h2.title {
+        font-size: 35px;
+        color: #1a2944;
+        font-family: 'SourceSansProBold';
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .HomePageGetStartedSection p.description,
+    .HomePageGetStayInformedSection p.description {
+        font-size: 18px;
+        color: #1a2944;
+        text-align: center;
+        font-style: italic;
+        color: black;
+        font-family: 'SourceSansProSemiBold'
+    }
+    
+    .HomePageGetStartedSection article.ArticleOne {
+        color: #20665b;
+        word-spacing: 0;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: ultra-condensed;
+    }
+    
+    .HomePageGetStartedSection article.ArticleTwo {
+        color: #000000;
+        word-spacing: 0;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: ultra-condensed;
+    }
+    
+    .HomePageGetStartedSection article.ArticleThree {
+        color: #95297b;
+        word-spacing: 0;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: ultra-condensed;
+    }
+    
+    .HomePageGetStartedSection article.ArticleFour {
+        color: #672556;
+        word-spacing: 0;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: ultra-condensed;
+    }
+    
+    .HomePageGetStartedSection article.ArticleFive {
+        color: #1a4c5d;
+        word-spacing: 0;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: ultra-condensed;
+    }
+    
+    .CustomBackgroundColorOne {
+        background-color: #f6f6f6;
+    }
+    
+    .CustomColorOne {
+        color: #646464 !important;
+    }
+    
+    .HomePageGetStayInformedSection h3 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #1a2944;
+        margin-top: 18px;
+        text-decoration: none;
+        font-stretch: condensed;
+    }
+    
+    .HomePageGetStayInformedSection a {
+        display: block;
+        color: #1a2944;
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
+    }
+    
+    .HomePageGetStayInformedSection a:hover {
+        display: block;
+        text-decoration: none;
+        text-decoration: underline;
+        color: #1a2944;
+    }
+    
+    .HomePageGetStayInformedSection a:hover img {
+        transform: scale(1.2);
+    }
+    
+    .HomePageGetStayInformedSection .ImgBox {
+        overflow: hidden;
+    }
+    
+    .HomePageGetStayInformedSection .ImgBox img {
+        height: 280px;
+        object-fit: cover;
+        transition: 0.2s ease-in-out;
+    }
+    
+    .HomePageGetStartedSection article .ImgBox img {
+        height: 100px;
+        width: 100px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .HomePageGetStartedSection article:hover .ImgBox img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .HomePageGetStartedSection article .ImgBox {
+        height: 110px;
+        width: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HomePageGetStartedSection article span {
+        padding-top: 30px;
+        font-family: 'lorimerTwo';
+    }
+    
+    .FooterSocialIconsHoverEffect {
+        transform: scale(1.2);
+    }
+    
+    .FooterSocialIconsMain {
+        width: 50px;
+        height: 50px;
+        display: grid;
+        place-items: center;
+        margin-right: 13px;
+    }
+    
+    .SecondHerosSection h1 {
+        position: relative;
+        font-size: 55px;
+        text-shadow: 0 3px 6px rgb(0 0 0 / 50%);
+        color: white;
+        padding-left: 0;
+        margin-bottom: 70px;
+    }
+    
+    .SecondHerosSection h1:after {
+        content: "" !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        width: 60px !important;
+        height: 10px !important;
+        background-color: #84bf41 !important;
+    }
+    
+    .SecondHerosSection {
+        height: 350px;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        align-items: end;
+    }
+    
+    .MembersHerosSection {
+        background-image: url(../src/Assets/Image/MembersHerosBackground.avif);
+    }
+    
+    .SecondHerosSection .ForHerosSectionFilter {
+        background: linear-gradient(0deg, #00000094 20%, transparent 80%);
+    }
+    
+    .CoperaInnerPagesMainSection a {
+        text-decoration: none;
+    }
+    
+    .CoperaInnerPagesMainSection a:hover h4 {
+        text-decoration: underline;
+    }
+    
+    .CoperaInnerPagesMainSection a .ImgBox {
+        height: 180px;
+        width: 270px;
+        overflow: hidden;
+        display: grid;
+        place-items: center;
+    }
+    
+    .CoperaInnerPagesMainSection a:hover .ImgBox img {
+        transform: scale(1.1);
+    }
+    
+    .CoperaInnerPagesMainSection a .ImgBox img {
+        width: 100%;
+        height: 100%;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .CoperaInnerPagesMainSection .CoperaInnerPagesMainSectionMiddle h2,  .CoperaInnerPagesMainSection .CoperaInnerPagesMainSectionMiddle h2 span {
+        font-size: 40px;
+        font-weight: 700;
+        color: #1a2944;
+        margin-bottom: 30px;
+        text-decoration: none;
+        font-family: 'SourceSansProBold';
+    }
+    
+    .CoperaInnerPagesMainSection .CoperaInnerPagesMainSectionMiddle p {
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .CoperaInnerPagesMainSection .nav-item:nth-child(1) {
+        font-weight: 700;
+        font-size: 21px;
+    }
+    
+    .CoperaInnerPagesMainSection .nav-item:nth-child(1) .nav-link {
+        font-stretch: unset;
+        font-size: 21px;
+        color: #000000 !important;
+    }
+    
+    .active {
+        color: #138645 !important;
+        background-color: transparent;
+    }
+    
+    .CoperaInnerPagesMainSection .nav-item .nav-link {
+        color: black;
+        font-size: 19px;
+        padding: 8px 0;
+        font-weight: bolder;
+        font-stretch: condensed;
+        font-family: lorimerTwo;
+    }
+    .CoperaInnerPagesMainSection .nav-item .nav-link.active{
+        background-color: transparent;
+    } 
+    
+    .PDFGenrateLinkPERAAccount,
+    .PDFGenrateLinkPERAAccount:hover {
+        color: #46755a;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    .CustomAccordianButtonOne {
+        color: rgb(26, 41, 68);
+        background-color: rgb(246, 246, 246);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+        border: 0;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 600;
+        border-left: 3px solid rgb(20, 133, 67);
+    }
+    .CustomAccordianButtonOne span{
+        pointer-events: none;
+    }
+
+    .CustomAccordianButtonOne .LineBox {
+        width: 20px;
+        height: 20px;
+        position: relative;
+    }
+    
+    .CustomAccordianButtonOne .LineBox .LineOne {
+        width: 20px;
+        height: 2px;
+        background-color: rgb(20, 133, 67);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    
+    .CustomAccordianButtonOne .LineBox .LineTwo {
+        width: 20px;
+        height: 2px;
+        background-color: rgb(20, 133, 67);
+        position: absolute;
+        transform: rotate(90deg) translate(50%, 0%);
+        transition: 0.1s ease-in-out;
+    }
+    
+    .CustomAccordianButtonOne .LineBox .LineTwo.active {
+        height: 0;
+    }
+    
+    .CustomAccordianButtonOneMain {
+        margin: 20px 0;
+    }
+    
+    .CustomAccordianButtonOneCollapse {
+        display: none;
+        padding: 20px 0 0 0;
+    }
+    
+    .CustomAccordianButtonOneCollapse h3 {
+        font-size: 22px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        margin: 0 0 25px 0
+    }
+    
+    .CustomAccordianButtonOneCollapse p {
+        font-size: 16px;
+        color: black;
+    }
+    
+    .CustomAccordianButtonOneCollapse a,
+    .CustomAccordianButtonOneCollapse a:hover {
+        color: #46755a;
+        text-decoration: underline;
+    }
+    
+    .fs-22 {
+        font-size: 22px !important;
+    }
+    
+    .fs-14 {
+        font-size: 14px !important;
+    }
+    
+    .fs-12 {
+        font-size: 12px !important;
+    }
+    
+    .fs-20 {
+        font-size: 20px !important;
+    }
+    
+    .fs-28 {
+        font-size: 28px !important;
+    }
+    
+    .FatBorderLeft {
+        border-left: 10px solid black;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle a.ThemeLinksAncor {
+        text-decoration: underline;
+        color: #46755a;
+    }
+    
+    .ThemeDarkGreenColor {
+        color: #005A79 !important;
+    }
+    
+    .ThemeGreenColor {
+        color: #148543 !important;
+    }
+    
+    .fw-600 {
+        font-weight: 600 !important;
+    }
+    
+    .fw-400 {
+        font-weight: 400 !important;
+    }
+    
+    .fw-500 {
+        font-weight: 500 !important;
+    }
+    
+    .fw-300 {
+        font-weight: 300 !important;
+    }
+    
+    .word-shrink {
+        word-spacing: 0;
+        letter-spacing: 0;
+    }
+    
+    .CustomTableBackgroundColor {
+        background-color: #1a2944 !important;
+    }
+    
+    .AsideCardsMain:hover h5 {
+        text-decoration: underline;
+    }
+    
+    .blackHeading {
+        font-size: 22px;
+        color: black;
+        word-spacing: 0;
+        letter-spacing: 0;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle .styledParaWithWhiteBorderLeft {
+        font-size: 30px !important;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 39px;
+        color: black;
+        word-spacing: 0;
+        width: 80%;
+        letter-spacing: 0;
+        border-left: 10px solid #f6f6f6;
+        padding-left: 15px;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle .styledParaWithWhiteBorderLeftSpan {
+        font-size: 16px !important;
+        font-weight: 300;
+        display: block;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+
+    aside .AsideCards {
+        min-height: 200px;
+        margin-bottom: 30px;
+        box-shadow: 0 13px 16px rgb(0 0 0 / 16%);
+        padding: 20px;
+    }
+    
+    .HeaderDropdownToggleBox {
+        position: absolute;
+        width: 100%;
+        z-index: 999999;
+        display: none;
+        background: white;
+        box-shadow: 0 8px 14px hsl(0deg 0% 62% / 32%);
+        padding: 20px;
+    }
+    
+    aside .AsideCards h5 {
+        font-size: 20px;
+        font-stretch: condensed;
+    }
+    
+    aside .AsideCards p {
+        font-size: 14px;
+    }
+    .ImgBox img{
+        max-width: 100%;
+        height: auto;
+    }
+    .AsideCardsMain:nth-of-type(even) .AsideCards {
+        background-color: #20665b;
+        color: white;
+    }
+    
+    .AsideCardsMain:nth-of-type(odd) .AsideCards {
+        background-color: #84bf41;
+        color: black;
+    }
+    
+    .AsideCardsMain {
+        text-decoration: none;
+    }
+    
+    .HeaderToggleDropDownBox {
+        height: 30px;
+        width: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .HeaderToggleDropDownBox .LineOne,
+    .HeaderToggleDropDownBox .LineTwo,
+    .HeaderToggleDropDownBox .LineThree {
+        width: 100%;
+        height: 2px;
+        background-color: #46755a;
+    }
+    
+    .HeaderSearchBar {
+        position: relative;
+        width: 100%;
+        border: 2px solid #1a2944;
+        height: 46px;
+    }
+    
+    .HeaderSearchBar input[type="text"] {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        color: #000000;
+    }
+    
+    .HeaderSearchBar input[type="text"]::placeholder {
+        font-weight: 700;
+        color: #1a2944;
+    }
+    
+    .HeaderSearchBar .HeaderSearchIconButton {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-color: transparent;
+        color: #1a2944;
+        border: 0;
+        width: 40px;
+        height: 100%;
+    }
+    
+    .selectBoxMain {
+        width: 100%;
+        margin: 15px 0 0 0;
+        position: relative;
+    }
+    
+    .selectBoxMain button {
+        width: 100%;
+        background-color: #1a2944;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px 0;
+        z-index: 0;
+    }
+    
+    .selectBoxMain select {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        opacity: 0;
+        top: 0;
+        z-index: 1;
+    }
+    
+    button.CustomAccordianButtonTwo {
+        background-color: white;
+        padding: 0;
+        border: 0;
+    }
+    
+    button.CustomAccordianButtonTwo a {
+        text-decoration: none;
+        color: #1a2944;
+    }
+    
+    button.CustomAccordianButtonTwo .LineBox .LineOne,
+    button.CustomAccordianButtonTwo .LineBox .LineTwo {
+        background-color: #1a2944;
+    }
+    
+    .CustomAccordianButtonTwoCollapse a {
+        display: block;
+        color: #1a2944;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 15px 0;
+        font-weight: 500;
+    }
+    
+    .CustomAccordianButtonTwoCollapse {
+        padding: 10px 0 0 20px;
+    }
+    
+    .AccordianLinksMain {
+        position: relative;
+        width: 100%;
+    }
+    
+    .AccordianLinksMain span {
+        width: 100%;
+        display: block;
+        z-index: 99;
+        text-align: left;
+    }
+    
+    .AccordianLinksMain .LineBox {
+        position: absolute;
+        z-index: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    .NavlinkDropdown {
+        border-left: 2px solid #d6dbde;
+        padding-left: 10px;
+        display: none;
+    }
+    
+    .NavlinkDropdown a {
+        font-size: 19px;
+        color: #1a2944 !important;
+    }
+    
+    .NavlinkDropdown a.active {
+        font-size: 19px;
+        color: #138645 !important;
+    }
+    
+    td {
+        background: #f6f6f6;
+    }
+    
+    table a {
+        color: #138645 !important;
+        font-size: 14px;
+    }
+    
+    table p {
+        font-size: 14px;
+    }
+    /* <responsive - css> */
+    
+    a.HeaderDropDownListItem {
+        padding: 7px 17px;
+    }
+    
+    ul.MobileHamburgerMenuUl {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        cursor: pointer;
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul.MobileHamburgerMenuUl li {
+        list-style: none;
+        position: absolute;
+        left: 10%;
+        transform: translate(0, -50%);
+        width: 80%;
+        height: 2px;
+        padding: 0;
+        border-radius: 20px;
+        background-color: #46755a;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+        opacity: 1;
+        transition: transform 0.3s, top 0.3s, opacity 0.3s;
+        transition-delay: 0s, 0.3s, 0.3s;
+    }
+    
+    ul.MobileHamburgerMenuUl li:nth-child(1) {
+        top: 25%;
+    }
+    
+    ul.MobileHamburgerMenuUl li:nth-child(2) {
+        top: 50%;
+    }
+    
+    ul.MobileHamburgerMenuUl li:nth-child(3) {
+        top: 75%;
+    }
+    
+    ul.MobileHamburgerMenuUl.active li {
+        transition: top 0.3s, transform 0.3s, opacity 0.3s;
+        transition-delay: 0s, 0.3s, 0.3s;
+    }
+    
+    ul.MobileHamburgerMenuUl.active li:nth-child(1) {
+        top: 50%;
+        transform: translate(0, -50%) rotate(-45deg);
+    }
+    
+    ul.MobileHamburgerMenuUl.active li:nth-child(2) {
+        opacity: 0;
+    }
+    
+    ul.MobileHamburgerMenuUl.active li:nth-child(3) {
+        top: 50%;
+        transform: translate(0, -50%) rotate(45deg);
+    }
+    
+    .MobileHamburgerMenuButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .MobileHamburgerMenuButtonMain {
+        position: relative;
+    }
+    
+    .HeaderMobileDropDownAccordianButtonMain {
+        position: relative;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .HeaderMobileDropDown .HeaderMobileDropDownAccordianButtonMain .LinesMain {
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+    }
+    
+    .HeaderMobileDropDown .HeaderMobileDropDownAccordianButtonMain .LinesMain .lineOne {
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        background-color: #1a2944;
+        transform: translate(-50%, -50%) rotate(90deg);
+        top: 50%;
+        left: 50%;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .HeaderMobileDropDown .HeaderMobileDropDownAccordianButtonMain .LinesMain .lineTwo {
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        background-color: #1a2944;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+    
+    .HeaderMobileDropDownAccordianButtonMain .position-relative {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .HeaderMobileDropDownAccordianButton {
+        position: absolute;
+        height: 35px;
+        width: 35px;
+        z-index: 999;
+        left: 0;
+        top: 0;
+    }
+    
+    .HeaderMobileDropDown a,
+    .HeaderMobileDropDown a:hover,
+    .HeaderMobileDropDown a:focus {
+        text-decoration: none;
+        color: #1a2944;
+        font-size: 20px;
+        padding: 10px 0;
+        letter-spacing: 0;
+        font-family: 'lorimerTwo';
+        word-spacing: 0;
+        font-weight: 600;
+    }
+    
+    .MobileHeaderAccordianCollapse {
+        display: none;
+    }
+    
+    .HeaderMobileDropDown .HeaderMobileDropDownAccordianButtonMain .LinesMain .lineOne.active {
+        width: 0;
+    }
+    
+    .HeaderMobileDropDown {
+        display: none;
+            z-index: 99999;
+            position: absolute;
+            top: 197px;
+            background: white;width: 100%;
+            box-shadow: 0 12px 5px #a1a1a129;
+    }
+    
+    header {
+        box-shadow: 2px 2px 15px #0000003d;
+        min-height: 150px;
+        height: 150px;
+    }
+    
+    .HeaderMobileDropDown input {
+        width: 100%;
+        border: 0px;
+        background-color: transparent;
+    }
+    
+    .MobileMenuSearchBarMain {
+        border: 2px solid #1a2944 !important;
+        height: 45px;
+    }
+    
+    .MobileMenuSearchBarMain button {
+        background-color: transparent;
+        border: 0;
+        display: grid;
+        place-items: center;
+        height: 100%;
+        width: 46px;
+    }
+    
+    .MobileHeaderTranslateBox select {
+        width: 100%;
+        height: 46px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: 99;
+    }
+    
+    .MobileHeaderTranslateBox button {
+        width: 100%;
+        background-color: #1a2944;
+        border: 0;
+        color: white;
+        height: 46px;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        left: 0
+    }
+    
+    .MobileHeaderTranslateBox {
+        position: relative;
+    }
+    
+    header li a svg {
+        color: #148543;
+    }
+    
+    header li:hover a svg {
+        color: white;
+    }
+    
+    .headerMenuListItems {
+        display: flex;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transition: 0.3s ease-in-out;
+        z-index: 99;
+    }
+    
+    .headerMenuListItems.active {
+        right: -100%;
+    }
+    
+    .headerMenuSearchItems {
+        display: none;
+    }
+    
+    ul.headerMenuSearchItems {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+    
+    ul.headerMenuSearchItems button {
+        background-color: transparent;
+        border: 0;
+        color: #148543;
+        padding: 0 12px;
+        height: 50px
+    }
+    
+    ul.headerMenuSearchItems button:hover {
+        background-color: #148543;
+    }
+    
+    ul.headerMenuSearchItems button:hover::before {
+        color: #fff;
+    }
+    
+    ul.headerMenuSearchItems button:hover svg {
+        color: #fff;
+    }
+    
+    ul.headerMenuSearchItems button svg {
+        height: 25px;
+        width: 25px;
+    }
+    
+    ul.headerMenuSearchItems button[type="submit"]::before {
+        content: ":";
+    }
+    
+    ul.headerMenuSearchItems span {
+        font-weight: 600;
+    }
+    
+    ul.headerMenuSearchItems input,
+    ul.headerMenuSearchItems input:focus,
+    ul.headerMenuSearchItems input:focus-visible {
+        border: 0;
+        border-bottom: 2px solid #148543;
+        margin-bottom: 13px;
+        outline: 0;
+        padding-left: 12px;
+        margin-right: 10px;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle a,.CoperaInnerPagesMainSectionMiddle a:hover {
+        color: #46755a;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle h3 {
+        color: #148543;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle h4 {
+        color: #000000;
+        font-family: lorimerTwo;
+        font-weight: bolder;
+        font-size: 22px;
+    }
+    
+    .CoperaInnerPagesMainSectionMiddle h4 a {
+        color: #46755a;
+        font-family: lorimerTwo;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+
+.PagesLinksCards h4{
+    color: #148543;
+    font-size: 28px;
+    font-family: 'SourceSansPro';
+
+}
+
+    /* <<<<----->>>> */
+    
+/*======================
+    404 page
+=======================*/
+
+
+.page_404{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+    height: 100%;
+    background-size: cover;
+ width: 100%;
+ background-image: url(./Assets/Image/404.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
+    
+
+
+
+
+
+
+/* <----newcss--------> */
+.leftSidebarHeading {
+    font-weight: 800;
+    font-size: 19px;
+    padding: 8px 0;
+    font-family: lorimerTwo;
+    font-stretch: condensed;
+    background-color: transparent;
+    color: #000000 !important;
+    border: 0;
+    margin: 0 !important;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: var(--bs-nav-pills-border-radius);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.submenus li {
+    font-weight: 700;
+    font-size: 21px;
+    list-style-type: none;
+}
+.submenus li a {
+    font-size: 19px;
+    padding: 8px 0;
+    font-family: lorimerTwo;
+    font-stretch: condensed;
+    background-color: transparent;
+    color: #000000 ;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: var(--bs-nav-pills-border-radius);
+    font-weight: 500;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+/* <----newcss--------> */
+
+
+
+
+
+
+
+
+    @media screen and (min-device-width: 0px) and (max-device-width: 767px) {
+        .headerMenuListItems {
+            display: none;
+        }
+        .MobileHeaderTranslateBox {
+            margin-top: 10px;
+        }
+        header img {
+            width: 220px;
+            height: 60px;
+        }
+        header .headerLoginRegistrationBtn {
+            font-size: 16px;
+            width: 100%;
+            text-align: center;
+        }
+        .HeaderLinkBarTop a {
+            margin-left: 0px;
+        }
+        .HerosSectionDropdownMain {
+            width: auto;
+        }
+        section.herosSectionHomePage h1 {
+            font-size: 38px;
+        }
+        section.herosSectionHomePage {
+            min-height: 350px;
+            display: flex;
+            align-items: end;
+            background-size: 250% 100%;
+            background-position: center;
+        }
+        .HomePageGetStartedSection h2.title,
+        .HomePageGetStayInformedSection h2.title {
+            font-size: 28px;
+        }
+        section.herosSectionHomePage p {
+            font-size: 16px;
+        }
+        .HomePageGetStartedSection article span {
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+        section.HomePageGetStartedSection .GetStartedHomePageSlideOne,
+        section.HomePageGetStartedSection .GetStartedHomePageSlideTwo,
+        section.HomePageGetStartedSection .GetStartedHomePageSlideThree {
+            display: flex;
+            position: relative;
+            justify-content: end;
+            flex-direction: column-reverse;
+            padding: 0 15px;
+        }
+        section.HomePageGetStartedSection .SlideContent {
+            width: auto;
+            position: static;
+            transform: translate(0, 0);
+            border-left: 0;
+            padding: 10px;
+            border-bottom: 5px solid #95297b;
+        }
+        section.HomePageGetStartedSection .SlideImage {
+            width: auto;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+        }
+        section.HomePageGetStartedSection .SlideContent h2 a {
+            color: #1a2944;
+            font-size: 28px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        section.HomePageGetStartedSection .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            border: 1px solid black;
+            background-color: #151515;
+        }
+        section.HomePageGetStartedSection .swiper-pagination .swiper-pagination-bullet {
+            border: 1px solid black;
+            background-color: transparent;
+            opacity: 1;
+        }
+        section.HomePageGetStartedSection .swiper-pagination {
+            padding-right: 30px;
+        }
+        .HomePageGetStayInformedSection h3 {
+            font-size: 18px;
+        }
+        .CustomBorderLeft {
+            border-top: 1px solid #808285;
+            border-left: 0px solid #808285;
+        }
+        .HomePageFrequentlyAskedQuestionSection a {
+            font-size: 18px;
+        }
+        .HomePageFrequentlyAskedQuestionSection h2 {
+            font-size: 28px;
+            margin: 0 0 16px 0;
+        }
+        .HeaderLogoLink {
+            width: 100%;
+        }
+        .SecondHerosSection {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .SecondHerosSection h1 {
+            font-size: 38px;
+            margin-bottom: 40px;
+            width: auto;
+            padding-left: 30px;
+        }
+        .SecondHerosSection h1:after {
+            margin-left: 30px;
+        }
+        .CoperaInnerPagesMainSection .nav-item .nav-link {
+            padding: 8px 0;
+        }
+        .CoperaInnerPagesMainSection .CoperaInnerPagesMainSectionMiddle h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .CoperaInnerPagesMainSection a .ImgBox {
+            height: 180px;
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .AsideCardsMain .ImgBox {
+            margin: 0 !important;
+        }
+        .AsideCardsMain {
+            padding: 0 !important;
+        }
+        iframe {
+            width: auto;
+        }
+        .CoperaInnerPagesMainSectionMiddle .styledParaWithWhiteBorderLeft {
+            font-size: 22px !important;
+            word-spacing: 0;
+            width: 100%;
+        }
+        aside .AsideCards {
+            min-height: max-content;
+        }
+        header .headerLoginRegistrationBtn {
+            background-color: #84bf41;
+            border: 2px solid #84bf41;
+            margin: 32px 0 12px 0px;
+        }
+    }
+    
+    @media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+        .headerMenuListItems {
+            display: none;
+        }
+        section.HomePageGetStartedSection .GetStartedHomePageSlideOne,
+        section.HomePageGetStartedSection .GetStartedHomePageSlideTwo,
+        section.HomePageGetStartedSection .GetStartedHomePageSlideThree {
+            display: flex;
+            position: relative;
+            justify-content: end;
+            flex-direction: column-reverse;
+            padding: 0 15px;
+        }
+        header .headerLoginRegistrationBtn {
+            background-color: #84bf41;
+            border: 2px solid #84bf41;
+            margin: 32px 0 12px 0px;
+        }
+        section.HomePageGetStartedSection .SlideContent {
+            width: auto;
+            position: static;
+            transform: translate(0, 0);
+            border-left: 0;
+            padding: 25px;
+            min-height: 290px;
+            border-bottom: 5px solid #95297b;
+        }
+        section.HomePageGetStartedSection .SlideImage {
+            width: auto;
+            height: 350px;
+            background-size: cover;
+            background-position: center;
+        }
+        section.HomePageGetStartedSection .SlideContent h2 a {
+            color: #1a2944;
+            font-size: 28px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        section.HomePageGetStartedSection .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            border: 1px solid black;
+            background-color: #151515;
+        }
+        section.HomePageGetStartedSection .swiper-pagination .swiper-pagination-bullet {
+            border: 1px solid black;
+            background-color: transparent;
+            opacity: 1;
+        }
+        section.HomePageGetStartedSection .swiper-pagination {
+            padding-right: 30px;
+        }
+        .HomePageGetStayInformedSection h3 {
+            font-size: 18px;
+        }
+        .HomePageFrequentlyAskedQuestionSection h2 {
+            font-size: 36px;
+        }
+        .HomePageFrequentlyAskedQuestionSection a {
+            font-size: 20px;
+        }
+        .HeaderLogoLink {
+            width: 100%;
+        }
+        .CoperaInnerPagesMainSection .CoperaInnerPagesMainSectionMiddle h2 {
+            font-size: 35px;
+            margin-top: 20px;
+        }
+        .SecondHerosSection h1 {
+            font-size: 45px;
+        }
+        iframe {
+            width: 100%;
+        }
+        .CoperaInnerPagesMainSection a .ImgBox {
+            width: auto;
+        }
+        .CoperaInnerPagesMainSectionMiddle .styledParaWithWhiteBorderLeft {
+            font-size: 26px !important;
+            width: 90%;
+        }
+    }
+    
+    @media screen and (min-device-width: 992px) and (max-device-width: 1024px) {
+        section.HomePageGetStartedSection .swiper-pagination {
+            padding-right: 30px;
+        }
+        .HomePageGetStayInformedSection h3 {
+            font-size: 18px;
+        }
+        .HomePageFrequentlyAskedQuestionSection h2 {
+            font-size: 36px;
+        }
+        .HomePageFrequentlyAskedQuestionSection a {
+            font-size: 20px;
+        }
+        .HeaderLogoLink {
+            width: 100%;
+        }
+        .CoperaInnerPagesMainSection .CoperaInnerPagesMainSectionMiddle h2 {
+            font-size: 35px;
+        }
+        .SecondHerosSection h1 {
+            font-size: 45px;
+        }
+        .CoperaInnerPagesMainSection a .ImgBox {
+            width: auto;
+        }
+        .HomePageGetStartedSection article.ArticleFive {
+            font-size: 16px;
+        }
+    }
+    
+    @media screen and (min-device-width: 1025px) and (max-device-width: 1280px) {
+        .CoperaInnerPagesMainSection a .ImgBox {
+            width: 100%;
+        }
+        .CoperaInnerPagesMainSectionMiddle .styledParaWithWhiteBorderLeft {
+            font-size: 26px !important;
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 1400px) {
+        section.HomePageGetStartedSection .GetStartedHomePageSlideOne,
+        section.HomePageGetStartedSection .GetStartedHomePageSlideTwo,
+        section.HomePageGetStartedSection .GetStartedHomePageSlideThree {
+            margin: 0 !important;
+        }
+        section.HomePageGetStartedSection .swiper-pagination {
+            padding-right: 20px;
+        }
+    }
+    /* <-------------------After API CSS -----------------> */
+    
+    .traction-file {
+        display: block;
+        text-decoration: none !important;
+        padding: 5px 0;
+    }
